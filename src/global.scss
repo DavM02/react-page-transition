@@ -1,0 +1,22 @@
+
+
+$brown: rgb(117, 97, 86);
+$white: rgb(239, 234, 234);
+$black: rgb(24, 24, 24);
+$green: rgb(60, 79, 60);
+ $yellow: rgb(212 195 167);
+ $gray: rgb(168, 168, 168);
+ $blue: rgb(180 202 212);
+
+@mixin transition1($time, $props...) {
+ 
+    transition-property: $props !important;
+    transition:  $time cubic-bezier(.82,.29,.17,.5);
+}
+
+@mixin transition2($time, $props...) {
+ 
+    transition-property: $props !important;
+    transition:  $time cubic-bezier(.85,.68,.36,.81);
+}
+

@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './global.scss'
+import Nav from './components/navigation/Nav';
+import './App.scss'
+import RoutComponents from './components/pages/RoutComponents';
+import './media.scss'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav></Nav>
+      <main>
+        <RoutComponents/>
+      </main>
+      <div className='au'>Davm02</div>
     </div>
   );
 }

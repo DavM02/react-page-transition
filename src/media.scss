@@ -1,0 +1,60 @@
+@media all and (max-width: '600px') {
+
+
+
+    #about {
+        .row {flex-wrap: wrap;
+            .image {
+                &:nth-child(1) {
+                    width: 50%;
+                }
+        
+                &:nth-child(2) {
+                    width: 40%;
+                }
+        
+                &:nth-child(3) {
+                    width: 50%;
+                }
+            }
+        }
+        }
+}
+
+ @media all and (max-width: 500px) {
+    main {
+        margin-top: 70px !important;
+    }
+    #about, #contacts {
+        padding-top: 70px !important;
+    }
+    .slider {
+        max-width: 230px !important;
+    }
+
+    .slider-placeholder {
+        height: 290px !important;
+    }
+
+    .contacts-image-placeholder {
+        height: 360px !important;
+        max-width: 260px !important;
+    }
+
+    .slider-progress {
+        scale: 70%;
+        top: -10px !important;
+  
+    }
+
+    .quote-wrapper {
+        top: 47% !important;
+    }
+ }
+
+
+ @media all and (max-height: 600px) {
+    .App, #contacts, #about {
+        overflow-y: scroll !important;
+    }
+ }

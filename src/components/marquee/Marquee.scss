@@ -1,0 +1,78 @@
+@import '../../global.scss';
+
+.marquee-text {
+    font-size: 300px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: $black;
+    font-family: 'humane', Arial, Helvetica, sans-serif;
+}
+
+.quote-wrapper {
+    height: 295px;
+    overflow-y: hidden;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    grid-column-gap: 3rem;
+
+     animation-delay: 1s;
+
+    &:hover {
+        .scroll {
+            animation-play-state: paused !important;
+        }
+    }
+}
+
+#home {
+    .marquee {
+        transform: translateY(100%);
+        animation: appear 1s cubic-bezier(.85,.68,.36,.81) forwards;
+    }
+}
+
+
+.marquee-content {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+    flex: 0 0 auto;
+    grid-column-gap: 3rem;
+
+}
+
+.scroll {
+    animation: scroll 10s cubic-bezier(.82, .29, .17, .5) infinite;
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 3rem));
+    }
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
