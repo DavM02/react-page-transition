@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-page-transition/static/css/main.3cd703ff.css",
+    "main.js": "/react-page-transition/static/js/main.fa64927d.js",
+    "static/js/787.3d803410.chunk.js": "/react-page-transition/static/js/787.3d803410.chunk.js",
+    "static/media/img-1.webp": "/react-page-transition/static/media/img-1.4db232de053f66308536.webp",
+    "static/media/img-4.jpg": "/react-page-transition/static/media/img-4.64b6e938ecf05203f3f8.jpg",
+    "static/media/img-3.jpg": "/react-page-transition/static/media/img-3.39953b74b8c50dc6692c.jpg",
+    "static/media/img-5.jpg": "/react-page-transition/static/media/img-5.d6edd9d2739936137ade.jpg",
+    "static/media/Humane-Bold.eot": "/react-page-transition/static/media/Humane-Bold.4afcd78114e40792ce31.eot",
+    "static/media/Humane-Bold.ttf": "/react-page-transition/static/media/Humane-Bold.473c9479d8c2e5a51a25.ttf",
+    "static/media/Humane-Bold.otf": "/react-page-transition/static/media/Humane-Bold.697565ee0e4a70dd6531.otf",
+    "static/media/Humane-Bold.woff": "/react-page-transition/static/media/Humane-Bold.e864217e5450be541ed9.woff",
+    "static/media/Humane-Bold.woff2": "/react-page-transition/static/media/Humane-Bold.661480c91fe5e0dce7f8.woff2",
+    "index.html": "/react-page-transition/index.html",
+    "main.3cd703ff.css.map": "/react-page-transition/static/css/main.3cd703ff.css.map",
+    "main.fa64927d.js.map": "/react-page-transition/static/js/main.fa64927d.js.map",
+    "787.3d803410.chunk.js.map": "/react-page-transition/static/js/787.3d803410.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cd703ff.css",
+    "static/js/main.fa64927d.js"
+  ]
+}
